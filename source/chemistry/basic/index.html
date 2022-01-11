@@ -9,5 +9,27 @@
 </head>
 
 <body>
+     <header>
+          <h1>Periodic Table of the Elements</h1>
+     </header>
+     <main>
+          <div id="Elements">
+               <p>The JSON is good, but my parsing script is broken.</p>
+		</div>
+	</main>
+	<div id="Dialog" aria-labelledby="DialogName" role="dialog" tabindex="-1" hidden>
+		<div role="document" ><!-- For VO bug -->
+			<h2 id="DialogName">Element Detail</h2>
+			<button type="button" id="DialogClose">Close</button>
+			<!-- Need a region role becase this has a tabindex so keyboard users can scroll the box -->
+			<div id="ElementDetail" tabindex="0" role="region" aria-labelledby="DialogName">
+				The JSON is good, but my parsing script is broken.
+			</div>
+		</div>
+	</div>
+	<div id="Overlay"></div>
+	<footer>
+		<p>The data comes from <a href="https://github.com/Bowserinator/Periodic-Table-JSON">Periodic-Table-JSON</a>, a JSON version of the Periodic Table of the Elements, and is used under Attribution-ShareAlike 3.0 Unported (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>).</p>
+	</footer>
 </body>
 </html>
