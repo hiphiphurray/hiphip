@@ -1,8 +1,10 @@
 /*
-Periodic Table of the Elements
-by - Prabhat Kumar, Y = 2022
-------------------------------
+    ------------------------------
+    Periodic Table of the Elements
+    by - Prabhat Kumar, Y = 2022
+    ------------------------------
 */
+
 // Inert polyfill https://github.com/GoogleChrome/inert-polyfill
 window.addEventListener("load", function() {
     function h(a, b, c) {
@@ -85,9 +87,7 @@ window.addEventListener("load", function() {
     }, !0)
 });
 
-
 // https://github.com/Bowserinator/Periodic-Table-JSON
-
 var elements = {
     "elements": [{
             "name": "Hydrogen",
@@ -4962,7 +4962,7 @@ var elements = {
     ]
 }
 
-// Global variable for the dialog close
+// Global variable for the dialog close.
 var DialogTrigger;
 
 function ParseElements(data, elmID) {
@@ -5084,7 +5084,6 @@ function ParseElements(data, elmID) {
     }
 }
 ParseElements(elements, "Elements");
-
 
 function ToggleStyleBlock(strClass, showhide) {
     try {
